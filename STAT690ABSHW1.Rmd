@@ -1,0 +1,39 @@
+---
+title: "STAT690ABSHW1"
+author: "YuWang"
+date: '2024-02-08'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(LearnBayes)
+```
+
+\newpage
+
+## 2 Programming
+
+### (a)
+
+```{r,out.width = "63%"}
+data(studentdata)
+Dvds <- studentdata$Dvds
+hist(Dvds)
+```
+
+### (b)
+
+```{r}
+summary(Dvds)
+```
+
+### (c)
+
+```{r ,out.width = "70%"}
+#table(Dvds)
+barplot(table(Dvds))
+```
+
+We could see that when the numbers of Dvds is equal to 10,15,20,etc, It would have higher values. Therefore may be 5 dvds was regards as a set and student will be willing to have a set instead of buying one by one.
