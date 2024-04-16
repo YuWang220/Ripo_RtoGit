@@ -2,7 +2,7 @@
 title: "STAT690ABSHW1"
 author: "YuWang"
 date: '2024-02-08'
-output: pdf_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
